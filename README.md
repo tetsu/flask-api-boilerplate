@@ -1,9 +1,12 @@
-Flask API Boilerplate
+# Flask API Boilerplate
 
-Include
+## Include
 - Flask
 - Docker
 - Docker-Compose
+- Swagger (coming soon)
+- Redis (coming soon)
+- OpenQL (coming soon)
 
 ## Install
 1. run 'docker-compose build'
