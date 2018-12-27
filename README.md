@@ -4,9 +4,9 @@
 - Flask
 - Docker
 - Docker-Compose
+- OpenQL
 - Swagger (coming soon)
 - Redis (coming soon)
-- OpenQL (coming soon)
 
 ## Instruction
 1. Clone this repository
