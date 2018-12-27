@@ -8,6 +8,10 @@
 - Redis (coming soon)
 - OpenQL (coming soon)
 
-## Install
+## Instruction
+1. Clone this repository
+  ```
+  git clone git@github.com:tetsu/flask-api-boilerplate.git
+  ```
 1. run 'docker-compose build'
 1. run 'docker-compose up'
