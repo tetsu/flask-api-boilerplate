@@ -1,6 +1,7 @@
 click
 Flask
 Flask-GraphQL
+graphene
 itsdangerous
 Jinja2
 MarkupSafe
