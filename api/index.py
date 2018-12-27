@@ -1,22 +1,14 @@
 from flask import Flask, jsonify, make_response
 from flask_graphql import GraphQLView
-import graphene
+from schema import schema, hello_world_schema
 
 app = Flask(__name__)
-
-class Query(graphene.ObjectType):
-    hello = graphene.String(argument=graphene.String(default_value="World!"))
-
-    def resolve_hello(self, info, argument):
-        return 'Hello ' + argument
-
-schema = graphene.Schema(query=Query)
 
 app.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=schema, graphiql=True))
 
 @app.route('/')
 def hello_world():
-    result = schema.execute('{ hello }')
+    result = hello_world_schema.execute('{ hello }')
     return result.data['hello']
 
 @app.route('/restapi')

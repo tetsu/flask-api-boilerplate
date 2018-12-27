@@ -6,7 +6,7 @@
 - Docker-Compose
 - OpenQL
 - Swagger (coming soon)
-- Redis (coming soon)
+- Redis Job Queue (coming soon)
 
 ## Instruction
 1. Clone this repository
