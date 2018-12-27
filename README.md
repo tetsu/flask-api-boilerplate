@@ -4,7 +4,7 @@
 - Flask
 - Docker
 - Docker-Compose
-- OpenQL
+- GraphQL
 - Swagger (coming soon)
 - Redis Job Queue (coming soon)
 
@@ -24,5 +24,5 @@
 
 ## Endpoints
 1. Top Page: /
-1. OpenQL: /openql
+1. GraphQL: /graphql
 1. REST API: /restapi
