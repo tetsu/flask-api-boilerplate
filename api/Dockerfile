@@ -9,4 +9,4 @@ RUN apk update
 RUN apk add zsh vim tmux git tig
 RUN pip install -r ./api/requirements.txt
 
-CMD python ./api/hello.py
+CMD python ./api/index.py

@@ -1,5 +1,6 @@
 click
 Flask
+Flask-GraphQL
 itsdangerous
 Jinja2
 MarkupSafe
