@@ -21,3 +21,8 @@
     ```
     docker-compose up
     ```
+
+## Endpoints
+1. Top Page: /
+1. OpenQL: /openql
+1. REST API: /restapi
