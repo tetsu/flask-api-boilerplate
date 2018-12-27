@@ -14,4 +14,10 @@
     git clone git@github.com:tetsu/flask-api-boilerplate.git
     ```
 1. run 'docker-compose build'
+    ```
+    docker-compose build
+    ```
 1. run 'docker-compose up'
+    ```
+    docker-compose up
+    ```
